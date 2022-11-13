@@ -3,7 +3,7 @@
 [ros_google_speech](https://github.com/naka-lab/ros_google_speech)をWindowsで動かす方法．
 
 ## インストール
-- このリポジトリをcloneして，その中に[ros_google_speech](https://github.com/naka-lab/ros_google_speech)と[roslib](https://github.com/naka-tomo/roslib)をcloneする
+- Windowsでこのリポジトリをcloneして，その中に[ros_google_speech](https://github.com/naka-lab/ros_google_speech)と[roslib](https://github.com/naka-tomo/roslib)をcloneする
 
 ```
 git clone https://github.com/naka-lab/ros_google_speech_win.git
@@ -16,8 +16,8 @@ pip install catkin_pkg
 ```
 
 ## 実行方法
-- roscoreをUbuntuで動かす
-- [run.bat](run.bat)をメモ帳で開き，上部の`ROS_MASTER_URI`と`ROS_HOSTNAME`を環境に合わせて修正
+- roscore動かす（これのみUbuntuで実行する必要がある）
+- Windowsで，[run.bat](run.bat)をメモ帳等で開き，上部の`ROS_MASTER_URI`と`ROS_HOSTNAME`を環境に合わせて修正
 - `cd`でros_google_speech_winフォルダに移動し，`run.bat`をコマンドプロンプトから実行
   ```
   cd ros_google_speech_win
