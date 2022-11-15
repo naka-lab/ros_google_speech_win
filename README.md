@@ -13,6 +13,7 @@ git clone https://github.com/naka-lab/ros_google_speech.git
 git clone https://github.com/naka-tomo/roslib.git
 pip install rospkg
 pip install catkin_pkg
+pip install websocket-server
 ```
 
 ## 実行方法
