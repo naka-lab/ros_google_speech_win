@@ -3,21 +3,21 @@
 [ros_google_speech](https://github.com/naka-lab/ros_google_speech)をWindowsで動かす方法．
 
 ## インストール
-- Windowsでこのリポジトリをcloneして，その中に[ros_google_speech](https://github.com/naka-lab/ros_google_speech)と[roslib](https://github.com/naka-tomo/roslib)をcloneする
+- Windowsでこのリポジトリをcloneして，その中に[ros_google_speech](https://github.com/naka-lab/ros_google_speech)と[ros_win](https://github.com/naka-tomo/ros_win)をcloneする
 
 ```
 git clone https://github.com/naka-lab/ros_google_speech_win.git
 
 cd ros_google_speech_win
 git clone https://github.com/naka-lab/ros_google_speech.git
-git clone https://github.com/naka-tomo/roslib.git
+git clone https://github.com/naka-tomo/ros_win.git
 pip install rospkg
 pip install catkin_pkg
 pip install websocket-server
 ```
 
 ## 実行方法
-- roscore動かす（これのみUbuntuで実行する必要がある）
+- roscore動かす（[ros_win](https://github.com/naka-tomo/ros_win)を使えばwindowsでも実行可能）
 - Windowsで，[run.bat](run.bat)をメモ帳等で開き，上部の`ROS_MASTER_URI`と`ROS_HOSTNAME`を環境に合わせて修正
 - `cd`でros_google_speech_winフォルダに移動し，`run.bat`をコマンドプロンプトから実行
   ```
