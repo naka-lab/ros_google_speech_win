@@ -27,7 +27,7 @@ pip install websocket-server
 - 起動後の使い方は[ros_google_speech](https://github.com/naka-lab/ros_google_speech)と同じ
 
 ## Windowsから音声認識・合成を使う場合
-- [example_grammar.py](example/example_grammar.py)のように，スクリプトの上部で`ROS_MASTER_URI`と`ROS_HOSTNAME`を環境に合わせて設定し，`roslib`へのパスを通す
+- [example_grammar.py](example/example_grammar.py)のように，スクリプトの上部で`ROS_MASTER_URI`と`ROS_HOSTNAME`を環境に合わせて設定し，`ros_win/python_pakage`へのパスを通す
 - pythonで実行する
   ```
   cd example
