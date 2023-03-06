@@ -7,7 +7,7 @@ os.environ["ROS_MASTER_URI"] = "http://192.168.0.157:11311"
 os.environ["ROS_IP"] = "192.168.0.150"
 
 # パスを通す
-sys.path.append("../ros_win/python_package")
+sys.path.append("../ros_portable/python_package")
 
 import rospy
 from std_msgs.msg import String
